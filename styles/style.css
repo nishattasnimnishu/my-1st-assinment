@@ -52,6 +52,38 @@ nav a{
 .banner-text{
     margin: 0 100px;
 }
-.banner-h5{
+.banner-h5{ 
+    
+    text-align: center;
+}
+.banner-h1{
+    
+    text-align: center;
+}
+.banner-p{
+    text-align: center;
+    margin: 50px 200px;
+
+}
+/* header section end */
+
+/* main section */
+.about{
+    background-color: #e2a6bd;
+}
+
+.section-h3{
+    color: #181818;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+.section-p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-family: Open Sans;
+    padding-bottom: 80px;
 
 }
