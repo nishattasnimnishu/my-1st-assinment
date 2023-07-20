@@ -53,17 +53,14 @@ nav a{
     margin: 0 100px;
 }
 .banner-h5{ 
-    
     text-align: center;
 }
 .banner-h1{
-    
     text-align: center;
 }
 .banner-p{
     text-align: center;
     margin: 50px 200px;
-
 }
 /* header section end */
 
@@ -71,8 +68,8 @@ nav a{
 .about{
     background-color: #e2a6bd;
     padding: 0 100px;
+    /* border: 5px solid red; */
 }
-
 .section-h3{
     color: #181818;
     text-align: center;
@@ -89,19 +86,21 @@ nav a{
     padding-right: 100px;
 }
 .info-container{
-    border-radius: 10px;
-    margin: 50px ;
+    /* border-radius: 10px; */
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .info{
-    text-align: center;
-    gap: 35px;
+    text-align: center; 
+    /* gap: 35px;  */
     padding-bottom: 40px;
-}
+    width: 200px;
+    height: 300px;
+} 
 .picture{
     height: 25px;
-    weight: 25px;
+    width: 25px;
 }
 .latest-post{
     background-color: #9ccce7;
@@ -124,7 +123,7 @@ nav a{
 }
 .pictures{
     height: 200px;
-    weight: 200px;
+    width: 200px;
     border-radius: 100px;
 }
 .creative-crafting-container{
@@ -150,12 +149,14 @@ nav a{
 .form-container{
     background-color: #c9b2b2;
     padding: 80px 100px;
+    margin-bottom: 0;
 }
 .Contact-h2{
     text-align: center;
     padding-bottom: 80px;
 }
 .Contact input, textarea{
+    
     display: block;
     margin-bottom: 25px;
     padding: 12px 0;
@@ -165,14 +166,16 @@ nav a{
     color: #faf9f9;
     background-color: #073b25a8;
 }
-.footer{
+.test{
+    height: 80px;
     background-color: #920a3e;
     color: white;
     text-align: center;
-    margin: 0;
-    padding: 40px;
+    padding-top: 30px;
+
 }
-.footer-email{
-    height: 20px;
-    weight: 20px;
+.margin{
+    display: inline;
+    margin-top: 50px;
+    
 }
