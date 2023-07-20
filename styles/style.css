@@ -70,6 +70,7 @@ nav a{
 /* main section */
 .about{
     background-color: #e2a6bd;
+    padding: 0 100px;
 }
 
 .section-h3{
@@ -85,7 +86,6 @@ nav a{
     font-size: 18px;
     font-family: Open Sans;
     padding-bottom: 80px;
-    padding-left: 100px;
     padding-right: 100px;
 }
 .info-container{
@@ -96,7 +96,7 @@ nav a{
 }
 .info{
     text-align: center;
-    padding-left: 115px;
+    gap: 35px;
     padding-bottom: 40px;
 }
 .picture{
@@ -131,6 +131,7 @@ nav a{
     display: flex;
     gap: 30px;
     padding: 80px 100px;
+    background-color: #f0d8e1;
 }
 .craft-image{
     height: 400px;
@@ -144,4 +145,34 @@ nav a{
     color: brown;
     border: 2px;
     padding: 4px 6px;
+}
+/* main section end */
+.form-container{
+    background-color: #c9b2b2;
+    padding: 80px 100px;
+}
+.Contact-h2{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.Contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 12px 0;
+    width: 100%;
+}
+.sand{
+    color: #faf9f9;
+    background-color: #073b25a8;
+}
+.footer{
+    background-color: #920a3e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+.footer-email{
+    height: 20px;
+    weight: 20px;
 }
