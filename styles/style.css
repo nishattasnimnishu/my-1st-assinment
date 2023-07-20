@@ -85,5 +85,63 @@ nav a{
     font-size: 18px;
     font-family: Open Sans;
     padding-bottom: 80px;
-
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.info-container{
+    border-radius: 10px;
+    margin: 50px ;
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    text-align: center;
+    padding-left: 115px;
+    padding-bottom: 40px;
+}
+.picture{
+    height: 25px;
+    weight: 25px;
+}
+.latest-post{
+    background-color: #9ccce7;
+    padding: 80px 100px;
+}
+.section-h2{
+    color: #181818;
+    text-align: center;
+    padding-bottom: 80px;
+    margin: 0;
+}
+.latest-post-container{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.post{
+    text-align: center;
+}
+.pictures{
+    height: 200px;
+    weight: 200px;
+    border-radius: 100px;
+}
+.creative-crafting-container{
+    display: flex;
+    gap: 30px;
+    padding: 80px 100px;
+}
+.craft-image{
+    height: 400px;
+    weight: 400px;
+}
+.crafting-h4{
+    text-align: center;
+}
+.read-more{
+    background-color: antiquewhite;
+    color: brown;
+    border: 2px;
+    padding: 4px 6px;
 }
